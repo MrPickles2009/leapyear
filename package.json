@@ -1,0 +1,23 @@
+{
+  "name": "leapyear",
+  "version": "0.0.1",
+  "description": "A simple app for determining whether or not a specific year is a leap year.",
+  "main": "leapyear.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrPickles2009/leapyear.git"
+  },
+  "keywords": [
+    "leapyear"
+    "ISAT 252"
+  ],
+  "author": "Benjamin Gilliam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrPickles2009/leapyear/issues"
+  },
+  "homepage": "https://github.com/MrPickles2009/leapyear#readme"
+}
