@@ -5,21 +5,20 @@
 4. The year is a leap year (it has 366 days).
 5. The year is not a leap year (it has 365 days)
 */
-function leapyear(year) {
-	//var year = window.prompt("Which year are you testing for?");
-	var year = 2015;
+//function leapyear(year) {
+var year = window.prompt("Which year are you testing for?");
 
-	if (year%4 != 0) {
-		console.log("The year " + year + " is not a leap year.")
+if (year%4 !== 0) {
+	console.log("The year " + year + " is not a leap year.")
+} else {
+	if (year%100 !== 0) {
+		console.log("The year " + year + " is a leap year!")
 	} else {
-		if (year%100 != 0) {
-			console.log("The year " + year + " is not a leap year.")
+		if (year%400 === 0) {
+			console.log("The year " + year + " is a leap year!")
 		} else {
-			if (year%400 == 0) {
-				console.log("The year " + year + " is a leap year!")
-			} else {
-				console.log("The year " + year + " is not a leap year.")
-			}
+			console.log("The year " + year + " is not a leap year.")
 		}
 	}
 }
+//}
